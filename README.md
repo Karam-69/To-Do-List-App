@@ -2,6 +2,10 @@
 
 A tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
+![project_photo](https://user-images.githubusercontent.com/86977059/215381173-7241b69e-2f7e-45e4-b439-86415c1ec7cb.PNG)
+
+
+
 ## 🛠 Built With 
 
 
