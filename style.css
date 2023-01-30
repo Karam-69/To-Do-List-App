@@ -1,0 +1,234 @@
+/* # Colors  ( ECE8E7 , ( #4AB1FF, #2D5CFE ) , 3C87FF, fff , f44336 ) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+body {
+  width: 98%;
+  background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+}
+
+.parent {
+  width: 520px;
+  margin: 60px auto;
+  padding: 28px 0 30px;
+  background-color: #ECE8E7;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.3px;
+}
+
+.task-input {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.tast-input {
+
+  padding: 9px 15px;
+
+  font-size: 20px;
+
+  border: 1px solid #999;
+
+  border-radius: 5px;
+
+  width: 350px;
+}
+
+input:focus {
+  outline: 1px solid #3C87FF;
+}
+
+.tast-add {
+  border: none;
+  opacity: 0.6;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 7px 20px;
+  border-radius: 4px;
+  transition: opacity 0.25s ease;
+  background: linear-gradient(135deg, #2D5CFE 0%, #1798fb 100%);
+}
+
+.tast-add:hover {
+  opacity: 0.9;
+}
+
+.controls {
+
+  padding: 18px 25px;
+
+  padding-top: 28px;
+
+  border-bottom: 1px solid #ccc;
+
+  display: flex;
+
+  justify-content: space-around;
+}
+
+
+
+#active {
+  opacity: 1;
+  color: #2D5CFE;
+}
+
+.controls span {
+  margin: 0 8px;
+  font-size: 21px;
+  color: #444444;
+  cursor: pointer;
+  opacity: .7;
+  font-weight: 400;
+}
+
+
+.controls .clear-btn {
+  border: none;
+  opacity: 0.6;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  transition: transform 1s linear;
+  transition: opacity 0.25s ease;
+  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+}
+
+.clear-btn:hover {
+  opacity: 0.9;
+}
+
+.task {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 16px 25px 16px 25px;
+
+  position: relative;
+
+}
+
+
+.task-title {
+  display: inline;
+}
+
+.task-box {
+  font-size: 17px;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.task .settings {
+  width: 25px;
+  height: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 16px;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.task .settings {
+  cursor: pointer;
+}
+
+.edit-menu {
+
+  right: 31px;
+  top: 30px;
+  padding: 0px;
+  background: #fff;
+  position: absolute;
+  border-radius: 4px;
+  transform-origin: top right;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+  transform: scale(0);
+  z-index: 2;
+  transform-origin: top right;
+  transition: transform 0.2s ease;
+}
+
+.edit-menu li {
+  padding: 5px 13px;
+  cursor: pointer;
+  border-radius: 2.6px;
+
+}
+
+.task li:hover {
+  background: #b6b0b0;
+
+}
+
+.task .settings:hover+.edit-menu {
+  transform: scale(1);
+}
+
+.edit-menu:hover {
+  transform: scale(1);
+
+}
+
+.uil {
+  margin-right: 3px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+
+}
+
+.no-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-weight: 500;
+
+}
