@@ -1,4 +1,4 @@
-# 📖 To Do List App 
+#  To Do List App 
 
 A tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
@@ -6,7 +6,7 @@ A tool that helps to organize your day. It simply lists the things that you need
 
 
 
-## 🛠 Built With 
+##  Built With 
 
 
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/html-icon.svg" alt="html5" width="55" height="55"/></a> 
@@ -22,7 +22,7 @@ A tool that helps to organize your day. It simply lists the things that you need
 - Edit items
 - Search items
 
-## [🚀 Live Demo]()
+## [ Live Demo](https://karam-69.github.io/To-Do-List-App/)
 
 ## Made By: Mohamed Karam. 
 ## Created In: 2022
