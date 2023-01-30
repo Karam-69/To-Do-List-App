@@ -23,3 +23,6 @@ A tool that helps to organize your day. It simply lists the things that you need
 - Search items
 
 ## [🚀 Live Demo]()
+
+## Made By: Mohamed Karam. 
+## Created In: 2022
